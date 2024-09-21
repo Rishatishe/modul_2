@@ -4,5 +4,7 @@ a = 0
 while a != index:
     if my_list[a] > 0:
         print(my_list[a])
-    a += 1
+        a += 1
+    if my_list[a] <= 0:
+        continue
 
